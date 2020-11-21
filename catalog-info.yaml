@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testss
+  description: asfasdasd
+  annotations: 
+    github.com/project-slug: blamdemo/something-mirco
+    backstage.io/github-actions-id: blamdemo/something-mirco
+spec:
+  type: service
+  lifecycle: experimental
+  owner: guest
